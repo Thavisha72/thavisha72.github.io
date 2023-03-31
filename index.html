@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width-device-width, initial-scale=1.0">
+        <title>Personal Portfolio</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/40bd3615ae.js" crossorigin="anonymous"></script>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    </head>
+
+    <body>
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <img src="imgs/logo.jpeg" class="logo">
+                    <ul id="sidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                </nav>
+                <div class="header-text"></div>
+            <p class="header-text-p">web Designer/ social media Marketer</p>
+            <h1 class="header-text-h1">Hi, I'm <span class="header-text-spa">Thavisha</span><br> Nipun From Sri Lanka</h1>
+        </div>
+        </div>
+<!--------------------------------------------about------------------------------------------------------->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="imgs/20190723_191805.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>As a multi-disciplinary professional with extensive experience in web design, data analysis, and social media marketing, I bring a unique perspective to the table. I am passionate about leveraging my skills and knowledge to help businesses achieve their goals through effective digital strategies. Whether it's creating visually stunning websites, analyzing data to identify trends and opportunities, or crafting compelling social media campaigns, I am dedicated to delivering high-quality results that drive real business impact. With a strong focus on collaboration, communication, and continuous learning, I am committed to delivering exceptional value to every project I work on.</p>
+
+                <div class="tab-title">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')" >Experience</p>
+                    <p class="tab-links" onclick="opentab('edducation')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Compeering</span><br>English/Sinhala</li>
+                        <li><span>Social media marketing</span><br>Facebook</li>
+                        <li><span>Event Management</span><br></li>
+                        <li><span>Web Designer</span><br>Html</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span></span><br></li>
+                        <li><span>Managed events at ESOFT </span><br></li>
+                        <li><span>Worked as a Social media Marketer in University projects</span><br></li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="edducation">
+                    <ul>
+                        <li><span>Undergraduate</span><br>BSc(Hons)in Data Science</li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+<!----------------------------------------------------------services-------------------------------------------------------------------------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            
+            <div>
+                <i class="fa-solid fa-microphone-lines"></i>
+                <h2>Compeering</h2>
+                <p> Sinhala and English</p>
+                <a href="#">Learn more...</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-share-nodes"></i>
+                <h2>Social Media Marketing</h2>
+                <p>Facebook , Whatsapp , Instergrame</p>
+                <a href="#">Learn more...</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop-simple"></i>
+                <h2>Web Designing</h2>
+                <p></p>
+                <a href="#">Learn more...</a>
+            </div>
+            <div>
+                <i class="fa-sharp fa-solid fa-chart-pie"></i>
+                <h2>Analysing</h2>
+                <p>Data Analysing/Business Analysing</p>
+                <a href="#">Learn more...</a>
+            </div>
+        
+        </div>
+    </div>
+</div>
+<!-----------------------------------------------------------portfolio---------------------------------------------------------------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="imgs/man-talking-at-meeting-into-microphone.jpg">
+                <div class="layer">
+                    <h3>Compeering</h3>
+                    <p></p>
+                    <a href="#"><i class="fa-duotone fa-arrow-up-right-from-square fa-beat"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="imgs/social-media-opportunities-601bc9d146e00.png">
+                <div class="layer">
+                    <h3>Social Media Macketing</h3>
+                    <p></p>
+                    <a href="#"><i class="fa-duotone fa-arrow-up-right-from-square fa-beat"></i></a>
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="imgs/b2b-web-design-examples-min.jpg">
+                <div class="layer">
+                    <h3>Web Design</h3>
+                    <p></p>
+                    <a href="#"><i class="fa-duotone fa-arrow-up-right-from-square fa-beat"></i></a>
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="imgs/data-analysis.jpg">
+                <div class="layer">
+                    <h3>Data Analysing</h3>
+                    <p></p>
+                    <a href="#"><i class="fa-duotone fa-arrow-up-right-from-square fa-beat"></i></a>
+                </div>
+            </div>
+
+        </div>
+
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+<!------------------------------------------------------------contact-------------------------------------------------------------------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>thavishanipun@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i>0718351784</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/thavisha.koralegedara?mibextid=ZbWKwL"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://instagram.com/tha_vi_sha72?igshid=ZDdkNTZiNTM="><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/thavisha-nipun-3584a3202"><i class="fa-brands fa-linkedin"></i></a>
+                   
+                </div>
+                <a href="imgs/CV pdf.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Massage" rows="6" placeholder="Your Massage"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Thavisha.</p>
+    </div>
+</div>
+
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right= "0"
+    }
+    function closemenu(){
+        sidemenu.style.right= "-200px"
+    }
+
+</script>
+
+
+  
+
+    </body>
+</html>
